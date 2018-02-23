@@ -21,6 +21,10 @@ app.get('/ui/my_profile.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'my_profile.html'));
 });
 
+app.get('/ui/styl.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'styl.css'));
+});
+
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
 
