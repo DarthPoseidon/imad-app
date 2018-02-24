@@ -19,7 +19,7 @@
 /* Set gray background color and 100% height */
 .sidenav {
   padding-top: 20px;
-  background-color: #42bfae;
+  background-color: #51d1ffb3;
   min-height: calc(100vh - 50px);
 }
 
